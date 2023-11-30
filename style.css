@@ -1,3 +1,7 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,500&display=swap');
+
+
 body{
     margin: 0;
     display: flex;
@@ -34,7 +38,7 @@ ul{
     gap: 15px;
     align-items: center;
     font-size: 18px;
-    color: #E5E7EB;;
+    color: #E5E7EB;
 }
 .mainimg{
     width: 600px;
@@ -68,4 +72,60 @@ ul{
     padding: 5px 20px;
     border-radius: 10px;
     margin-top: 15px; 
+}
+#informations{
+    padding: 15px 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#informationsheader{
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+}   
+#informationscontent{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding: 50px 10%
+}
+.informationsitem{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.informationstext{
+    font-size: 24px;
+    color: #1F2937;
+    text-align: center;
+    font-size: 18px;
+    color: #565657;
+}
+.informationsimg{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#quotesection{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    padding: 150px 0;
+    display: flex;
+    justify-content: center;
+}
+#quotetext{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+}
+#quoteautor{
+    align-self: end;
+    font-size: 28px;
+    font-weight: 400;
 }
