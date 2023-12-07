@@ -161,3 +161,11 @@ ul{
     color: #F9FAF8;
     font-weight: bold;
 }
+footer{
+    padding: 30px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
